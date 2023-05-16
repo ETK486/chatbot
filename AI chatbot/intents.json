@@ -1,0 +1,84 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name?","name","what's your name?","who are you?","what should I call you?"],
+  "responses": ["You can call me Zumbro","I'm Zumbro","I'm Zumbro your virtual assistant"]
+  },
+
+  {"tag": "reason of name",
+  "patterns": ["what is the reason of your name?","why are you named zumbro?"],
+  "responses": ["I am named Zumbro to Respect our late principal of this American College."]},
+
+   {"tag": "Location",
+  "patterns": ["location?","where is it located?","what is the location of the college?"],
+  "responses": ["Our college is situated near the Thamukam ground"]
+  },
+
+  {"tag": "Dept",
+  "patterns": ["How many departments are there?","dept","Departments?","departments?"],
+  "responses": ["There are 2 Campuses in our college.\n 1. Satellite Campus\n 2. Main Campus\nThere are Several departments in both the campus.\nFor details contact the main office in Main Campus"]},
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester?","how long will be a single semester?"],
+  "responses": ["The single semester will be around 4 to 6 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission?","entry requirements","admission requirements"],
+  "responses": ["The Student must have to complete their HSC and SSLC with a minimum of 60% "]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day?","how long are the classes?"],
+  "responses": ["There will be five classes per day. Each class will be of 45 minutes."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern?"],
+  "responses": ["There will be Quiz for 10 marks,Assignment for 10 marks and Test for 30 marks for the internals.\nThe Students who obtained pass mark in the internal exam are allowed to attend the External Exam.\nThe External exam will take place for 100 marks for Major Subjects and 70 marks for Non-Major Subjects "]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours?","when are you guys open?","what your hours of operation?"],
+  "responses": ["You can contact us through call or email at any hours. But our college premises will be open from 8:00 am to 5:30 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program?"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Cultural, Technical Events, and Christmas. \n Also our college has basketball court, football court, tennis court, badminton court, table tennis, chess, carrom board and many more."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students?", "what are the college infrastructures?"],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, Labs with AC, Conference room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee?","what is the fee structure?","can you send me the fees details?"],
+  "responses": ["Its based on the Course You are going to select. The details are available in main office."]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye","Varata Mamae","Sayonara"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
