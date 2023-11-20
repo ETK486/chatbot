@@ -19,27 +19,14 @@ public:
                 return;
             }
             else {
-                if (top == 0) {
                     array[2 * k + 1]=data;
                     array[2 * k + 2] = stack[top];
                     top--;
                     k = 2 * k + 1;
-                }
-                else {
-                    array[2 * k + 1]=data;
-                    array[2 * k + 3] = stack[top];
-                    array[2 * k + 2] = stack[top - 1];
-                    if (array[2 * k + 1] == '+' || array[2 * k + 1] == '-' || array[2 * k + 1] == '*' || array[2 * k + 1] == '/') {
-                        k = 2 * k + 1;
-                    }
-                    else if (array[2 * k + 2] == '+' || array[2 * k + 2] == '-' || array[2 * k + 2] == '*' || array[2 * k + 2] == '/') {
-                        k = 2 * k + 2;
-                    }
-                    top -= 2;
-                }
             }
         }
         else if(data == '?'){
+	    cout<<k<<endl;
             array[2 * k + 2] = stack[top];
             array[2 * k + 1] = stack[top - 1];
         }
